@@ -32,7 +32,6 @@ func main() {
 		fmt.Println("ok")
 		fmt.Println(n)
 		//	} else {
-		fmt.Println(err)
 		//		}
 	}
 }
