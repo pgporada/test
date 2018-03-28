@@ -28,5 +28,7 @@ func main() {
 		n, err := html.Parse(strings.NewReader(string(body)))
 		fmt.Println("ok")
 		fmt.Println(n)
+			} else {
+				}
   }
 }
