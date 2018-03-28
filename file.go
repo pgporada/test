@@ -25,8 +25,6 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		//		text := string(body)
-		//		fmt.Println("response body", text)
 		n, err := html.Parse(strings.NewReader(string(body)))
 		fmt.Println("ok")
 		fmt.Println(n)
