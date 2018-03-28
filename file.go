@@ -28,11 +28,8 @@ func main() {
 		//		text := string(body)
 		//		fmt.Println("response body", text)
 		n, err := html.Parse(strings.NewReader(string(body)))
-		//	if len(err) == 0 {
 		fmt.Println("ok")
 		fmt.Println(n)
-		//	} else {
 		fmt.Println(err)
-		//		}
 	}
 }
